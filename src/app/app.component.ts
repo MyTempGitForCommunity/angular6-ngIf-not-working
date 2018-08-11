@@ -9,9 +9,9 @@ declare const gapi;
 })
 export class AppComponent implements OnInit {
 
-  private googleAuth;
-
   protected showOverlay = true;
+
+  private googleAuth;
 
   constructor(
     // private appRef: ApplicationRef
